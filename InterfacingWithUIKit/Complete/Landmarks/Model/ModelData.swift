@@ -23,6 +23,8 @@ final class ModelData: ObservableObject {
             by: { $0.category.rawValue }
         )
     }
+    
+    
 }
 
 func load<T: Decodable>(_ filename: String) -> T {

@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06905CC5291C93A7002E33B4 /* youchelai_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06905CC4291C93A7002E33B4 /* youchelai_swiftuiApp.swift */; };
+		06905CC7291C93A7002E33B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06905CC6291C93A7002E33B4 /* ContentView.swift */; };
+		06905CC9291C93A9002E33B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06905CC8291C93A9002E33B4 /* Assets.xcassets */; };
+		06905CCC291C93A9002E33B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06905CCB291C93A9002E33B4 /* Preview Assets.xcassets */; };
+		06905CD3291C946F002E33B4 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06905CD2291C946F002E33B4 /* NavigationView.swift */; };
+		06905CD5291CA6CE002E33B4 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06905CD4291CA6CE002E33B4 /* Const.swift */; };
+		06905CD9291CE1F1002E33B4 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06905CD8291CE1F1002E33B4 /* View+Extension.swift */; };
+		06905CDB291CE81E002E33B4 /* DINOT-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06905CDA291CE81E002E33B4 /* DINOT-Regular.ttf */; };
+		06905CDD291CE828002E33B4 /* DINOT-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06905CDC291CE828002E33B4 /* DINOT-Medium.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06905CC1291C93A7002E33B4 /* youchelai_swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = youchelai_swiftui.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06905CC4291C93A7002E33B4 /* youchelai_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = youchelai_swiftuiApp.swift; sourceTree = "<group>"; };
+		06905CC6291C93A7002E33B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		06905CC8291C93A9002E33B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06905CCB291C93A9002E33B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		06905CD2291C946F002E33B4 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		06905CD4291CA6CE002E33B4 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		06905CD8291CE1F1002E33B4 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		06905CDA291CE81E002E33B4 /* DINOT-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINOT-Regular.ttf"; sourceTree = "<group>"; };
+		06905CDC291CE828002E33B4 /* DINOT-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINOT-Medium.ttf"; sourceTree = "<group>"; };
+		06905CDE291CE8BA002E33B4 /* youchelai-swiftui-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "youchelai-swiftui-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06905CBE291C93A7002E33B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06905CB8291C93A7002E33B4 = {
+			isa = PBXGroup;
+			children = (
+				06905CC3291C93A7002E33B4 /* youchelai_swiftui */,
+				06905CC2291C93A7002E33B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06905CC2291C93A7002E33B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06905CC1291C93A7002E33B4 /* youchelai_swiftui.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06905CC3291C93A7002E33B4 /* youchelai_swiftui */ = {
+			isa = PBXGroup;
+			children = (
+				06905CDE291CE8BA002E33B4 /* youchelai-swiftui-Info.plist */,
+				06905CC4291C93A7002E33B4 /* youchelai_swiftuiApp.swift */,
+				06905CC6291C93A7002E33B4 /* ContentView.swift */,
+				06905CC8291C93A9002E33B4 /* Assets.xcassets */,
+				06905CCA291C93A9002E33B4 /* Preview Content */,
+				06905CD2291C946F002E33B4 /* NavigationView.swift */,
+				06905CD4291CA6CE002E33B4 /* Const.swift */,
+				06905CD8291CE1F1002E33B4 /* View+Extension.swift */,
+				06905CDA291CE81E002E33B4 /* DINOT-Regular.ttf */,
+				06905CDC291CE828002E33B4 /* DINOT-Medium.ttf */,
+			);
+			path = youchelai_swiftui;
+			sourceTree = "<group>";
+		};
+		06905CCA291C93A9002E33B4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				06905CCB291C93A9002E33B4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06905CC0291C93A7002E33B4 /* youchelai_swiftui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06905CCF291C93A9002E33B4 /* Build configuration list for PBXNativeTarget "youchelai_swiftui" */;
+			buildPhases = (
+				06905CBD291C93A7002E33B4 /* Sources */,
+				06905CBE291C93A7002E33B4 /* Frameworks */,
+				06905CBF291C93A7002E33B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = youchelai_swiftui;
+			productName = youchelai_swiftui;
+			productReference = 06905CC1291C93A7002E33B4 /* youchelai_swiftui.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06905CB9291C93A7002E33B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					06905CC0291C93A7002E33B4 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 06905CBC291C93A7002E33B4 /* Build configuration list for PBXProject "youchelai_swiftui" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06905CB8291C93A7002E33B4;
+			productRefGroup = 06905CC2291C93A7002E33B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06905CC0291C93A7002E33B4 /* youchelai_swiftui */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06905CBF291C93A7002E33B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06905CDD291CE828002E33B4 /* DINOT-Medium.ttf in Resources */,
+				06905CCC291C93A9002E33B4 /* Preview Assets.xcassets in Resources */,
+				06905CDB291CE81E002E33B4 /* DINOT-Regular.ttf in Resources */,
+				06905CC9291C93A9002E33B4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06905CBD291C93A7002E33B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06905CC7291C93A7002E33B4 /* ContentView.swift in Sources */,
+				06905CD5291CA6CE002E33B4 /* Const.swift in Sources */,
+				06905CD3291C946F002E33B4 /* NavigationView.swift in Sources */,
+				06905CD9291CE1F1002E33B4 /* View+Extension.swift in Sources */,
+				06905CC5291C93A7002E33B4 /* youchelai_swiftuiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		06905CCD291C93A9002E33B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06905CCE291C93A9002E33B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06905CD0291C93A9002E33B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"youchelai_swiftui/Preview Content\"";
+				DEVELOPMENT_TEAM = FXRUS8AN42;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "youchelai-swiftui-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.autocareai.youchelai-swiftui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06905CD1291C93A9002E33B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"youchelai_swiftui/Preview Content\"";
+				DEVELOPMENT_TEAM = FXRUS8AN42;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "youchelai-swiftui-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.autocareai.youchelai-swiftui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06905CBC291C93A7002E33B4 /* Build configuration list for PBXProject "youchelai_swiftui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06905CCD291C93A9002E33B4 /* Debug */,
+				06905CCE291C93A9002E33B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06905CCF291C93A9002E33B4 /* Build configuration list for PBXNativeTarget "youchelai_swiftui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06905CD0291C93A9002E33B4 /* Debug */,
+				06905CD1291C93A9002E33B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06905CB9291C93A7002E33B4 /* Project object */;
+}

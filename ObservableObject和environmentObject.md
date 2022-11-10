@@ -45,3 +45,6 @@ struct LandmarkList_Previews: PreviewProvider {
 记住，哪个视图需要使用modelData，哪个视图就需要用@EnvironmentObject引入data；
 
 哪个预览需要使用modelData，哪个预览就需要new一个modelData
+
+
+

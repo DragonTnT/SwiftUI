@@ -46,12 +46,33 @@
 
 - SafeArea
 
+  - 使用.edgesIgnoringSafeArea()来忽略安全区,默认为全部。
+  - 应该在整个页面的body里添加此句
+
+
+- 背景色：
+
   ```swift
-  /// 使用.edgesIgnoringSafeArea()来忽略安全区,默认为全部
-  /// .edgesIgnoringSafeArea(.top)忽略顶部
+  .background(Color.blue)
   ```
 
+- 点击事件：
 
+  ```swift
+  /// 1.按钮点击
+  Button(action: {
+    ... // 点击事件触发的代码
+  }, label: {
+  	Image("back")
+  })
+  /// 2.手势点击
+  Image(systemName: "plus")
+    .onTapGesture {
+      ... // 点击事件触发的代码
+    }
+  ```
+
+  
 
 #### Spacer
 
@@ -75,6 +96,11 @@
 #### Stack：VStack,HStack
 
 - 默认会有子视图之间的spacing，不需要时，设置spacing为0，frame靠内容撑开
+
+  ```swift
+  VStack(alignment: .trailing, spacing: 20) {
+  }
+  ```
 
 #### View_Previews
 
@@ -191,7 +217,16 @@ var body: some View {
 
 
 
+#### 获取屏幕宽高
 
+```swift
+GeometryReader { geo in
+   // 安全区高度
+   geo.safeAreaInsets.top
+	 // 屏幕宽度
+	 geo.size.width
+}
+```
 
 
 
@@ -199,6 +234,7 @@ var body: some View {
 
 - 代码自动对齐：^+I
 - typora设置代码语言：```swift
+- 立即刷新Preview：option+cmd+P
 
 
 
