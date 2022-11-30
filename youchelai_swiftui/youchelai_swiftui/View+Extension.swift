@@ -30,7 +30,7 @@ extension Font {
     
     static func mFont(_ fontSize: CGFloat, withAdapter: Bool = true) -> Font {
         let size = withAdapter ? adapter(fontSize) : fontSize
-        let font = Font.custom("DINOT-Regular", size: size)
+        let font = Font.custom("DINOT-Medium", size: size)
         return font
     }
 }

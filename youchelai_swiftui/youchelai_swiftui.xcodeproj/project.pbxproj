@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06810475291DE46500C1D214 /* BillUserDefined.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06810474291DE46500C1D214 /* BillUserDefined.swift */; };
+		06810477291DE9F300C1D214 /* VSStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06810476291DE9F300C1D214 /* VSStack.swift */; };
+		06810479291DF05D00C1D214 /* BillUserDefinedCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06810478291DF05D00C1D214 /* BillUserDefinedCellView.swift */; };
 		06905CC5291C93A7002E33B4 /* youchelai_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06905CC4291C93A7002E33B4 /* youchelai_swiftuiApp.swift */; };
 		06905CC7291C93A7002E33B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06905CC6291C93A7002E33B4 /* ContentView.swift */; };
 		06905CC9291C93A9002E33B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06905CC8291C93A9002E33B4 /* Assets.xcassets */; };
@@ -16,9 +19,13 @@
 		06905CD9291CE1F1002E33B4 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06905CD8291CE1F1002E33B4 /* View+Extension.swift */; };
 		06905CDB291CE81E002E33B4 /* DINOT-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06905CDA291CE81E002E33B4 /* DINOT-Regular.ttf */; };
 		06905CDD291CE828002E33B4 /* DINOT-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06905CDC291CE828002E33B4 /* DINOT-Medium.ttf */; };
+		9EE7AEF0440210D9966F0957 /* Pods_youchelai_swiftui.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22A622437D253B169672A77 /* Pods_youchelai_swiftui.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06810474291DE46500C1D214 /* BillUserDefined.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillUserDefined.swift; sourceTree = "<group>"; };
+		06810476291DE9F300C1D214 /* VSStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSStack.swift; sourceTree = "<group>"; };
+		06810478291DF05D00C1D214 /* BillUserDefinedCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillUserDefinedCellView.swift; sourceTree = "<group>"; };
 		06905CC1291C93A7002E33B4 /* youchelai_swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = youchelai_swiftui.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06905CC4291C93A7002E33B4 /* youchelai_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = youchelai_swiftuiApp.swift; sourceTree = "<group>"; };
 		06905CC6291C93A7002E33B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -30,6 +37,9 @@
 		06905CDA291CE81E002E33B4 /* DINOT-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINOT-Regular.ttf"; sourceTree = "<group>"; };
 		06905CDC291CE828002E33B4 /* DINOT-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINOT-Medium.ttf"; sourceTree = "<group>"; };
 		06905CDE291CE8BA002E33B4 /* youchelai-swiftui-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "youchelai-swiftui-Info.plist"; sourceTree = SOURCE_ROOT; };
+		91B6EDEFA5856B9DFCAADBAA /* Pods-youchelai_swiftui.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-youchelai_swiftui.release.xcconfig"; path = "Target Support Files/Pods-youchelai_swiftui/Pods-youchelai_swiftui.release.xcconfig"; sourceTree = "<group>"; };
+		C22A622437D253B169672A77 /* Pods_youchelai_swiftui.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_youchelai_swiftui.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9C5B6B09FCB1EA49B3D2B3 /* Pods-youchelai_swiftui.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-youchelai_swiftui.debug.xcconfig"; path = "Target Support Files/Pods-youchelai_swiftui/Pods-youchelai_swiftui.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EE7AEF0440210D9966F0957 /* Pods_youchelai_swiftui.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +59,8 @@
 			children = (
 				06905CC3291C93A7002E33B4 /* youchelai_swiftui */,
 				06905CC2291C93A7002E33B4 /* Products */,
+				2A6C3233B2913A9E146FD55F /* Pods */,
+				0FA2CB9A3987B8DCF02350BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +78,7 @@
 				06905CDE291CE8BA002E33B4 /* youchelai-swiftui-Info.plist */,
 				06905CC4291C93A7002E33B4 /* youchelai_swiftuiApp.swift */,
 				06905CC6291C93A7002E33B4 /* ContentView.swift */,
+				06810474291DE46500C1D214 /* BillUserDefined.swift */,
 				06905CC8291C93A9002E33B4 /* Assets.xcassets */,
 				06905CCA291C93A9002E33B4 /* Preview Content */,
 				06905CD2291C946F002E33B4 /* NavigationView.swift */,
@@ -72,6 +86,8 @@
 				06905CD8291CE1F1002E33B4 /* View+Extension.swift */,
 				06905CDA291CE81E002E33B4 /* DINOT-Regular.ttf */,
 				06905CDC291CE828002E33B4 /* DINOT-Medium.ttf */,
+				06810476291DE9F300C1D214 /* VSStack.swift */,
+				06810478291DF05D00C1D214 /* BillUserDefinedCellView.swift */,
 			);
 			path = youchelai_swiftui;
 			sourceTree = "<group>";
@@ -84,6 +100,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		0FA2CB9A3987B8DCF02350BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C22A622437D253B169672A77 /* Pods_youchelai_swiftui.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A6C3233B2913A9E146FD55F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC9C5B6B09FCB1EA49B3D2B3 /* Pods-youchelai_swiftui.debug.xcconfig */,
+				91B6EDEFA5856B9DFCAADBAA /* Pods-youchelai_swiftui.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -91,9 +124,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06905CCF291C93A9002E33B4 /* Build configuration list for PBXNativeTarget "youchelai_swiftui" */;
 			buildPhases = (
+				263682143AC460AF93333FF2 /* [CP] Check Pods Manifest.lock */,
 				06905CBD291C93A7002E33B4 /* Sources */,
 				06905CBE291C93A7002E33B4 /* Frameworks */,
 				06905CBF291C93A7002E33B4 /* Resources */,
+				E2CD694B3F7512256F54006C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,13 +186,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		263682143AC460AF93333FF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-youchelai_swiftui-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2CD694B3F7512256F54006C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-youchelai_swiftui/Pods-youchelai_swiftui-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-youchelai_swiftui/Pods-youchelai_swiftui-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-youchelai_swiftui/Pods-youchelai_swiftui-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		06905CBD291C93A7002E33B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				06905CC7291C93A7002E33B4 /* ContentView.swift in Sources */,
+				06810477291DE9F300C1D214 /* VSStack.swift in Sources */,
+				06810475291DE46500C1D214 /* BillUserDefined.swift in Sources */,
 				06905CD5291CA6CE002E33B4 /* Const.swift in Sources */,
+				06810479291DF05D00C1D214 /* BillUserDefinedCellView.swift in Sources */,
 				06905CD3291C946F002E33B4 /* NavigationView.swift in Sources */,
 				06905CD9291CE1F1002E33B4 /* View+Extension.swift in Sources */,
 				06905CC5291C93A7002E33B4 /* youchelai_swiftuiApp.swift in Sources */,
@@ -283,6 +363,7 @@
 		};
 		06905CD0291C93A9002E33B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC9C5B6B09FCB1EA49B3D2B3 /* Pods-youchelai_swiftui.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,6 +396,7 @@
 		};
 		06905CD1291C93A9002E33B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91B6EDEFA5856B9DFCAADBAA /* Pods-youchelai_swiftui.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-// TODO: SwiftUI字体要换成有车来的
+
 struct NavigationView: View {
     
     var title: String
@@ -16,10 +16,10 @@ struct NavigationView: View {
     var tapLeftCallBack: (()->())?
     
     var body: some View {
-            VStack(spacing: 0) {
+            VSStack(spacing: 0) {
                 Color(backgroundColor)
                     .frame(height: statusBarH)
-                HStack {
+                HSStack {
                     Button {
                         if let callBack = tapLeftCallBack {
                             callBack()
