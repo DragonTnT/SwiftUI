@@ -31,6 +31,3 @@ func delay(_ timeInterval: TimeInterval, action: @escaping(()->())) {
     let time = DispatchTime.now() + timeInterval
     DispatchQueue.main.asyncAfter(deadline: time, execute: action)
 }
-
-
-

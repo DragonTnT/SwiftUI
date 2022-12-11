@@ -8,19 +8,6 @@
 import Foundation
 import SwiftUI
 
-//extension View {
-//    func rFont(_ fontSize: CGFloat, withAdapter: Bool = true) -> some View {
-//        let size = withAdapter ? adapter(fontSize) : fontSize
-//        let font = Font.custom("DINOT-Regular", size: size)
-//        return self.font(font)
-//    }
-//    func mFont(_ fontSize: CGFloat, withAdapter: Bool = true) -> some View {
-//        let size = withAdapter ? adapter(fontSize) : fontSize
-//        let font = Font.custom("DINOT-Medium", size: size)
-//        return self.font(font)
-//    }
-//}
-
 extension Font {
     static func rFont(_ fontSize: CGFloat, withAdapter: Bool = true) -> Font {
         let size = withAdapter ? adapter(fontSize) : fontSize
@@ -30,7 +17,7 @@ extension Font {
     
     static func mFont(_ fontSize: CGFloat, withAdapter: Bool = true) -> Font {
         let size = withAdapter ? adapter(fontSize) : fontSize
-        let font = Font.custom("DINOT-Regular", size: size)
+        let font = Font.custom("DINOT-Medium", size: size)
         return font
     }
 }

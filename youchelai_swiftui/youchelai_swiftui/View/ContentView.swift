@@ -6,63 +6,58 @@
 //
 
 import SwiftUI
+import Combine
+import ExytePopupView
 
 struct ContentView: View {
     
-    @State private var username: String = ""
-    @State private var dataSource: [BillUserDefinedSearchService] = []
-    /// 是否正在加载
-    @State private var isLoading = false
-    
+    @ObservedObject var vm = CustomServiceViewModel()
+
     var body: some View {
         VStack(spacing: 0) {
             NavigationView(title: "选择服务")
-            if isLoading {
-                LoadingView()
-            } else {
-                HStack(spacing: 0) {
-                    Image("service_search")
-                        .padding(.horizontal, 5)
-                    TextField("", text: $username)
-                        .frame(height: adapter(38))
-                        .font(.rFont(14))
-                        .placeholder(when: username.isEmpty, text: "搜索服务名称", font: .rFont(14), color: Color(Color_9096AB))
-                        .foregroundColor(Color(Color_1F2129))
+            VStack(spacing: 0) {
+                ZStack {
+                    HStack(spacing: 0) {
+                        Image("service_search")
+                            .padding(.horizontal, 5)
+                        UIKitTextField("",  text: Binding<String>(
+                            get: { vm.searchContent },
+                                set: {
+                                    vm.searchContent = $0
+                                    // 这里如果要实现中文搜索中的拼音不搜索，需要用到marketTextRange，那么Textfiled应该使用由UITextfield封装的控件
+                                    vm.search($0)
+                                }))
+                            .frame(height: adapter(38))
+                            .font(.rFont(14))
+                            .placeholder(when: vm.searchContent.isEmpty, text: "搜索服务名称", font: .rFont(14), color: Color(Color_9096AB))
+                            .foregroundColor(Color(Color_1F2129))
+                    }
+                    .background(Color.white)
+                    .cornerRadius(8)
+                    .padding(EdgeInsets.init(top: adapter(20), leading: adapter(20), bottom: adapter(25), trailing: adapter(20)))
+                    
+                    if vm.isLoading {
+                        ProgressView().padding(.top, adapter(60))
+                    }
                 }
-
-                .background(Color.white)
-                .cornerRadius(8)
-                .padding(EdgeInsets.init(top: adapter(20), leading: adapter(20), bottom: adapter(25), trailing: adapter(20)))
-                if dataSource.isEmpty {
+                if vm.services.isEmpty {
                     Color(Color_F2F6F8)
                 } else {
                     List {
-                        ForEach(dataSource) { source in
+                        ForEach(vm.services) { source in
                             ServiceRow(service: source)
                         }
                     }
                     .listStyle(.inset)
                     .listBackgroundColor(color: Color(Color_F2F6F8))
                 }
-                
             }
         }
         .background(Color(Color_F2F6F8))
         .ignoresSafeArea()
-        
     }
-    
-    func getList()  {
-        isLoading = true
-        delay(1) {
-            isLoading = false
-            let service = BillUserDefinedSearchService(id: 10,
-                                         icon: "https://img0.baidu.com/it/u=1250551608,2180019998&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500",
-                                         name: "更换机油",
-                                         alias: "我是别名")
-            dataSource.append(service)
-        }
-    }
+
 }
 
 struct ContentView_Previews: PreviewProvider {

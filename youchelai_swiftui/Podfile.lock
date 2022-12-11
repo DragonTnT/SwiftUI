@@ -1,20 +1,24 @@
 PODS:
+  - ExytePopupView (1.2.1)
   - HandyJSON (5.0.2)
   - Kingfisher (7.3.0)
 
 DEPENDENCIES:
+  - ExytePopupView
   - HandyJSON
   - Kingfisher
 
 SPEC REPOS:
   trunk:
+    - ExytePopupView
     - HandyJSON
     - Kingfisher
 
 SPEC CHECKSUMS:
+  ExytePopupView: e0554c9713665a386a54b356c596858811e84621
   HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
   Kingfisher: cdb1189a9223b1bc028816bd47c8b8101a58831c
 
-PODFILE CHECKSUM: 98341fcd5942ce82eab8a2a270e5e00e1487932b
+PODFILE CHECKSUM: 80ff2f5eacf5bc1af7679bf065ba22e909ac40b0
 
 COCOAPODS: 1.11.3

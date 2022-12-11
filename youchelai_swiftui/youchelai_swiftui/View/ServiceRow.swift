@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+//import Kingfisher
 import Kingfisher
 
 struct ServiceRow: View {
@@ -19,7 +20,7 @@ struct ServiceRow: View {
     var body: some View {
         HStack(spacing: 0) {
             
-            KFImage(url: service.icon)
+            Kingfisher.KFImage(url: service.icon)
                 .resizable()
                 .frame(width: 50, height: 50)
                 .cornerRadius(8)

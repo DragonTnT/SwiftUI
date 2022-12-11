@@ -22,6 +22,10 @@
 		EEC80A752933708100C7244B /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC80A742933708100C7244B /* View+Extension.swift */; };
 		EEC80A772933709300C7244B /* Image+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC80A762933709300C7244B /* Image+Extension.swift */; };
 		EEC80A792934ED8300C7244B /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC80A782934ED8300C7244B /* LoadingView.swift */; };
+		EEFAF4A22945AC7700D45A35 /* VSStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFAF4A12945AC7700D45A35 /* VSStack.swift */; };
+		EEFAF4A42945B37B00D45A35 /* Binding+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFAF4A32945B37B00D45A35 /* Binding+Extension.swift */; };
+		EEFAF4AA294609B100D45A35 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFAF4A9294609B100D45A35 /* ToastView.swift */; };
+		EEFAF4AC29461EC600D45A35 /* UIKitTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFAF4AB29461EC600D45A35 /* UIKitTextfield.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +48,10 @@
 		EEC80A742933708100C7244B /* View+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		EEC80A762933709300C7244B /* Image+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Image+Extension.swift"; path = "../../../../../Downloads/Image+Extension.swift"; sourceTree = "<group>"; };
 		EEC80A782934ED8300C7244B /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		EEFAF4A12945AC7700D45A35 /* VSStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSStack.swift; sourceTree = "<group>"; };
+		EEFAF4A32945B37B00D45A35 /* Binding+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+Extension.swift"; sourceTree = "<group>"; };
+		EEFAF4A9294609B100D45A35 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		EEFAF4AB29461EC600D45A35 /* UIKitTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitTextfield.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +139,9 @@
 			children = (
 				EEC80A5D29335F8E00C7244B /* NavigationView.swift */,
 				EEC80A782934ED8300C7244B /* LoadingView.swift */,
+				EEFAF4A12945AC7700D45A35 /* VSStack.swift */,
+				EEFAF4A9294609B100D45A35 /* ToastView.swift */,
+				EEFAF4AB29461EC600D45A35 /* UIKitTextfield.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -175,6 +186,7 @@
 			children = (
 				EEC80A742933708100C7244B /* View+Extension.swift */,
 				EEC80A762933709300C7244B /* Image+Extension.swift */,
+				EEFAF4A32945B37B00D45A35 /* Binding+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -295,15 +307,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEFAF4AC29461EC600D45A35 /* UIKitTextfield.swift in Sources */,
 				EEC80A5F29335F8F00C7244B /* NavigationView.swift in Sources */,
+				EEFAF4A42945B37B00D45A35 /* Binding+Extension.swift in Sources */,
 				EEC80A722933600400C7244B /* BillUserDefined.swift in Sources */,
 				EEC80A772933709300C7244B /* Image+Extension.swift in Sources */,
 				EEC80A792934ED8300C7244B /* LoadingView.swift in Sources */,
 				EEC80A752933708100C7244B /* View+Extension.swift in Sources */,
 				EEC80A6429335FA100C7244B /* ColorConst.swift in Sources */,
+				EEFAF4AA294609B100D45A35 /* ToastView.swift in Sources */,
 				EEC80A6F29335FBD00C7244B /* ContentView.swift in Sources */,
 				06905CC5291C93A7002E33B4 /* youchelai_swiftuiApp.swift in Sources */,
 				EEC80A6E29335FBD00C7244B /* ServiceRow.swift in Sources */,
+				EEFAF4A22945AC7700D45A35 /* VSStack.swift in Sources */,
 				EEC80A6529335FA100C7244B /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
