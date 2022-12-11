@@ -1,0 +1,20 @@
+PODS:
+  - HandyJSON (5.0.2)
+  - Kingfisher (7.3.0)
+
+DEPENDENCIES:
+  - HandyJSON
+  - Kingfisher
+
+SPEC REPOS:
+  trunk:
+    - HandyJSON
+    - Kingfisher
+
+SPEC CHECKSUMS:
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  Kingfisher: cdb1189a9223b1bc028816bd47c8b8101a58831c
+
+PODFILE CHECKSUM: 98341fcd5942ce82eab8a2a270e5e00e1487932b
+
+COCOAPODS: 1.11.3

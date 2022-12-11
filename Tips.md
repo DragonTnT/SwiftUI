@@ -168,7 +168,18 @@ struct LandmarkRow_Previews: PreviewProvider {
   }
   ```
 
+- 去掉List中的默认边距
 
+  ```swift
+  List {
+      ForEach(items) { item in
+          ItemRow(item: item)
+              .listRowInsets(EdgeInsets())
+      }
+  }
+  ```
+
+  
 
 #### Navigation
 

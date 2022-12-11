@@ -45,4 +45,23 @@ extension View {
             self
         }
     }
+    
+    func noSeparator() -> some View {
+        if #available(iOS 15.0, *) {
+            return self.listRowSeparator(.hidden)
+        } else {
+                return self
+        }
+    }
+    
+    func listBackgroundColor(color: Color) -> some View {
+        if #available(iOS 16.0, *) {
+            return self
+                .background(color)
+                .scrollContentBackground(.hidden)
+        } else {
+            return self
+        }
+    }
 }
+

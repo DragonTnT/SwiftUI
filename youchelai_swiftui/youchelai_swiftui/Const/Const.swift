@@ -12,9 +12,6 @@ public let kScreenH = UIScreen.main.bounds.size.height
 public let kScreenW = UIScreen.main.bounds.size.width
 public let statusBarH = UIApplication.shared.windows.filter {$0.isKeyWindow}.first?.windowScene?.statusBarManager?.statusBarFrame.height ?? 0
 
-public let Color_1F2129 = UIColor.black
-public let Color_F2F6F8 = UIColor.gray
-
 /// frame适配器
 func adapter(_ value: CGFloat) -> CGFloat {
     if value < 1 {
@@ -28,3 +25,12 @@ func adapter(_ value: CGFloat) -> CGFloat {
 func noAdapter(_ value: CGFloat) -> CGFloat {
     return value / (UIScreen.main.bounds.width/375)
 }
+
+/// 延迟执行
+func delay(_ timeInterval: TimeInterval, action: @escaping(()->())) {
+    let time = DispatchTime.now() + timeInterval
+    DispatchQueue.main.asyncAfter(deadline: time, execute: action)
+}
+
+
+

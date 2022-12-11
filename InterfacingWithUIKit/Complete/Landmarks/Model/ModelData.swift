@@ -16,7 +16,7 @@ final class ModelData: ObservableObject {
     var features: [Landmark] {
         landmarks.filter { $0.isFeatured }
     }
-
+h
     var categories: [String: [Landmark]] {
         Dictionary(
             grouping: landmarks,
