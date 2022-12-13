@@ -1,24 +1,28 @@
 PODS:
+  - AlertToast (1.3.7)
   - ExytePopupView (1.2.1)
   - HandyJSON (5.0.2)
   - Kingfisher (7.3.0)
 
 DEPENDENCIES:
+  - AlertToast
   - ExytePopupView
   - HandyJSON
   - Kingfisher
 
 SPEC REPOS:
   trunk:
+    - AlertToast
     - ExytePopupView
     - HandyJSON
     - Kingfisher
 
 SPEC CHECKSUMS:
+  AlertToast: 8c9d5efb2df6ea728b32b62bce99d876ec3e5393
   ExytePopupView: e0554c9713665a386a54b356c596858811e84621
   HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
   Kingfisher: cdb1189a9223b1bc028816bd47c8b8101a58831c
 
-PODFILE CHECKSUM: 80ff2f5eacf5bc1af7679bf065ba22e909ac40b0
+PODFILE CHECKSUM: 7507df89ca42b2d618cdb435710565338f4a69ee
 
 COCOAPODS: 1.11.3

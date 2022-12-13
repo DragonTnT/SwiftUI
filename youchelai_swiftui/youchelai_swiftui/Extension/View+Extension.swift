@@ -7,6 +7,7 @@
 
 import Foundation
 import SwiftUI
+import AlertToast
 
 extension Font {
     static func rFont(_ fontSize: CGFloat, withAdapter: Bool = true) -> Font {
@@ -48,6 +49,23 @@ extension View {
                 .scrollContentBackground(.hidden)
         } else {
             return self
+        }
+    }
+}
+
+// MARK: - AlertToast
+extension View {
+
+    @ViewBuilder
+    func toast(_ text: String?, isPresenting: Binding<Bool>) -> some View {
+        if let text = text, !text.isEmpty {
+            self.toast(isPresenting: isPresenting) {
+                let style: AlertToast.AlertStyle = .style(backgroundColor: Color(Color_1F2129.withAlphaComponent(0.7)),
+                                                          titleColor: Color.white)
+                return AlertToast(type: .regular, title: text, style: style)
+            }
+        } else {
+            self
         }
     }
 }

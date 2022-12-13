@@ -9,16 +9,20 @@ import SwiftUI
 
 struct ToastView: View {
     
+    let content: String
     
+    init(_ content: String) {
+        self.content = content
+    }    
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text(content)
             .font(Font.rFont(16))
     }
 }
 
 struct ToastView_Previews: PreviewProvider {
     static var previews: some View {
-        ToastView()
+        ToastView("this is a toast")
     }
 }

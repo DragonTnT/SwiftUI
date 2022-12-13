@@ -31,8 +31,12 @@ class CustomServiceViewModel: ObservableObject {
                                          alias: "我是别名")
             self.services = [service]
             self.isLoading = false
-            self.loadError = (code: 1000, msg: "出错啦")
-            self.isShowingError = true
+            
+            /// 出错的情况
+//            self.loadError = (code: 1000, msg: "出错啦")
+//            self.isShowingError = false
+            
+            
         }
     }
 }

@@ -9,5 +9,5 @@ target 'youchelai_swiftui' do
   pod 'HandyJSON'
   pod 'Kingfisher'
   pod 'ExytePopupView'
-  
+  pod 'AlertToast'
 end

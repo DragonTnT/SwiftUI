@@ -7,7 +7,7 @@
 
 import SwiftUI
 import Combine
-import ExytePopupView
+import AlertToast
 
 struct ContentView: View {
     
@@ -52,7 +52,7 @@ struct ContentView: View {
                     .listStyle(.inset)
                     .listBackgroundColor(color: Color(Color_F2F6F8))
                 }
-            }
+            }.toast(vm.loadError?.msg, isPresenting: $vm.isShowingError)
         }
         .background(Color(Color_F2F6F8))
         .ignoresSafeArea()
