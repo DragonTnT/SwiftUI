@@ -19,8 +19,7 @@ struct ServiceRow: View {
     
     var body: some View {
         HStack(spacing: 0) {
-            
-            Kingfisher.KFImage(url: service.icon)
+            KFImage(URL(string: service.icon))
                 .resizable()
                 .frame(width: 50, height: 50)
                 .cornerRadius(8)

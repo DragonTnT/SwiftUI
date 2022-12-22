@@ -10,7 +10,9 @@ import UIKit
 
 public let kScreenH = UIScreen.main.bounds.size.height
 public let kScreenW = UIScreen.main.bounds.size.width
-public let statusBarH = UIApplication.shared.windows.filter {$0.isKeyWindow}.first?.windowScene?.statusBarManager?.statusBarFrame.height ?? 0
+public var statusBarH: CGFloat {
+    return UIApplication.shared.windows.filter {$0.isKeyWindow}.first?.windowScene?.statusBarManager?.statusBarFrame.height ?? 0
+}
 
 /// frame适配器
 func adapter(_ value: CGFloat) -> CGFloat {

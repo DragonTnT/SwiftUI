@@ -36,6 +36,9 @@ struct ContentView: View {
                     .background(Color.white)
                     .cornerRadius(8)
                     .padding(EdgeInsets.init(top: adapter(20), leading: adapter(20), bottom: adapter(25), trailing: adapter(20)))
+                    .onReceive(vm.$isLoading) { output in
+                        
+                    }
                     
                     if vm.isLoading {
                         ProgressView().padding(.top, adapter(60))
