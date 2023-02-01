@@ -46,8 +46,20 @@
 
 - SafeArea
 
-  - 使用.edgesIgnoringSafeArea()来忽略安全区,默认为全部。
-  - 应该在整个页面的body里添加此句
+  - 使用.edgesIgnoringSafeArea()来忽略安全区,默认为全部。用于全屏显示时，可以将frame宽高设为屏幕宽高
+  - 应该在body的最外层子视图里添加此句
+  
+  ```swift
+  var body: some View {
+  	VStack {
+  		Text("1")
+  		Text("1")
+  	}
+  	.edgesIgnoringSafeArea()
+  }
+  ```
+  
+  
 
 
 - 背景色：
@@ -72,6 +84,13 @@
     }
   ```
 
+- 透明度：
+  ```
+  .opacity(0.1)
+  /// 注意：如果将值设为0，那么视图是纯透明，此时该视图不会响应交互。如果想要响应交互，可以将透明度设得极低，如：
+  .opacity(0.0001)
+  ```
+  
   
 
 #### Spacer
