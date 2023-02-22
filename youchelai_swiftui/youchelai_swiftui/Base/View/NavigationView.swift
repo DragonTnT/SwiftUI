@@ -18,7 +18,7 @@ struct NavigationView: View {
     var body: some View {
             VSStack(spacing: 0) {
                 Color(backgroundColor)
-                    .frame(height: statusBarH)
+                    .frame(height: 88)
                 HSStack {
                     Button {
                         if let callBack = tapLeftCallBack {
